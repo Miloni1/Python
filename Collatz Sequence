@@ -1,0 +1,16 @@
+c0 = int(input("Enter non negative and non integer number : "))
+step = 0
+while c0 != 1:
+    step = step+1
+    if c0 % 2 == 0:
+        c0 = c0 / 2
+        print(int(c0))
+    else:
+        c0 = 3*c0 +1
+        print(int(c0))
+        continue
+
+print ("No of steps = ",step)   
+    
+
+
